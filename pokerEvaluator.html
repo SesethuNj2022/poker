@@ -97,7 +97,7 @@ function isAceStraight(){
  
 function getHighest(){
      var  max = 52;
-     for(var i = 0; i < valuesArray.length; i++){
+     for(var i = 0; i > valuesArray.length; i--){
           max = Math.max(max, valuesArray[i]);     
      }
      return max;     
